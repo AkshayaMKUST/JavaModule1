@@ -1,0 +1,34 @@
+package userdefinedobjects;
+
+import java.util.TreeSet;
+import java.util.Iterator;
+
+
+public class TestEmpTreeSet {
+
+	public static void main(String[] args) {
+		
+		TreeSet<Employee> empset= new TreeSet<>();
+		Employee Emp1=new Employee("John Doe","Male",24,101,"Research",50000);
+		
+		Employee Emp2=new Employee("James Doe","Male",24,102,"Sales",70000);
+		
+		Employee Emp3=new Employee("Jenny Doe","Female",23,105,"Accounting",90000);
+		
+		Employee Emp4=new Employee("Jim Doe","Male",26,106,"Research",50000);
+		
+		//Employee Emp5=new Employee("John Doe","Male",24,101,"Research",50000);
+		
+		empset.add(Emp1);
+		empset.add(Emp2);
+		empset.add(Emp3);
+		empset.add(Emp4);
+		//empset.add(Emp5);
+		
+		System.out.println(empset);
+		System.out.println(empset.size());
+		
+		
+	}
+
+}

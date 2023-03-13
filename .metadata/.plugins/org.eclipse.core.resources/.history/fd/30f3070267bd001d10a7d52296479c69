@@ -1,0 +1,14 @@
+package Multithreading;
+
+public class TestRunnable {
+
+	public static void main(String[] args) {
+		
+		MyRunnable runnable = new MyRunnable();
+		Thread t1=new Thread();
+		Thread t2=new Thread();
+		t1.start();
+		t2.start();
+	}
+
+}

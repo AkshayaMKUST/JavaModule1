@@ -1,0 +1,8 @@
+package Statemachine;
+
+public class StateIface {
+	
+	public abstract int withdraw(int amount,int deno);
+	public abstract int balance(int denocnt);
+
+}

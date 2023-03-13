@@ -1,0 +1,5 @@
+package interthread1;
+
+public class ConsumerInteger {
+
+}

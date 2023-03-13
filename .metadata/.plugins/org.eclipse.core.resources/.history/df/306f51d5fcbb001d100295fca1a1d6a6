@@ -1,0 +1,5 @@
+package serialization.test;
+
+public class Employee {
+
+}

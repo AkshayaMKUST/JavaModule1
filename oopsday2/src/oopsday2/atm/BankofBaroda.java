@@ -1,0 +1,27 @@
+package oopsday2.atm;
+
+public class BankofBaroda implements BankingIface {
+
+	private Account account = new Account(10101000, "John Doe", "Salary", 5000);
+
+	@Override
+	public double withdraw(double amount) {
+
+		account.setBalance(account.getBalance() - amount);
+		return account.getBalance();
+	}
+
+	@Override
+	public double deposit(double amount) {
+
+		account.setBalance(account.getBalance() + amount);
+		return account.getBalance();
+	}
+
+	@Override
+	public double balanceEnquiry(int acno) {
+
+		return account.getBalance();
+	}
+
+}

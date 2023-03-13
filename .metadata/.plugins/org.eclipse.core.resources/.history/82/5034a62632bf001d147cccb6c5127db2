@@ -1,0 +1,27 @@
+package Streams;
+
+interface Formula {
+	public void m1();
+}
+
+class Some {
+	public static void m2() {
+		System.out.println("from m2");
+	}
+}
+
+public class TestMethodRef {
+
+	public static void main(String[] args) {
+
+		Formula f= Some::m2; //": :" operator is called method refernce in JAVA 8
+		f.m1();
+	}
+
+}
+
+class Other{
+	Other(){
+		System.out.println("from other constructors");
+	}
+}

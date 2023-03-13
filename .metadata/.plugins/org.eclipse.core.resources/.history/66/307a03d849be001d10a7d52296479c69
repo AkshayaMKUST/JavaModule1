@@ -1,0 +1,53 @@
+package userdefinedobjects;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.HashMap;
+
+public class TestHashMap {
+
+	public static void main(String[] args) {
+		
+		
+		Employee Emp1=new Employee("John Doe","Male",24,101,"Research",50000);
+		Employee Emp2=new Employee("James Doe","Male",24,102,"Sales",70000);
+		Employee Emp3=new Employee("Jenny Doe","Female",23,105,"Accounting",90000);
+		Employee Emp4=new Employee("Jim Doe","Male",26,106,"Research",50000);
+		Employee Emp5=new Employee("John Doe","Male",24,101,"Research",50000);
+		
+		ArrayList<Employee> emplist= new ArrayList<>();
+		
+		emplist.add(Emp1);
+		emplist.add(Emp2);
+		emplist.add(Emp3);
+		emplist.add(Emp4);
+		emplist.add(Emp5);
+		
+		HashSet<Employee> empset= new HashSet<>();
+		
+		empset.add(Emp1);
+		empset.add(Emp2);
+		empset.add(Emp3);
+		empset.add(Emp4);
+		empset.add(Emp5);
+		
+		TreeSet<Employee> empTreeset= new TreeSet<>();
+		
+		empTreeset.add(Emp1);
+		empTreeset.add(Emp2);
+		empTreeset.add(Emp3);
+		empTreeset.add(Emp4);
+		empTreeset.add(Emp5);
+		
+		
+		HashMap<String, Collection> datamap = new HashMap<>();
+		
+		datamap.put("emplist",emplist);
+		datamap.put("\nempset",empset);
+		datamap.put("\nempTreeset",empTreeset);
+		
+		System.out.println(datamap);
+	}
+}

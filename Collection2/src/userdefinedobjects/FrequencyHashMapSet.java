@@ -1,0 +1,30 @@
+package userdefinedobjects;
+
+import java.util.HashMap;
+
+public class FrequencyHashMapSet {
+
+	public static void main(String[] args) {
+		String str="Many methods in Collections Framework interfaces are defined in terms of the equals method . For example, the specification for the contains(Object o) method says: \"returns true if and only if this collection contains at least one element e such that (o==null ? e==null : o.equals(e)).\" This specification should not be construed to imply that invoking Collection.contains with a non-null argument o will cause o.equals(e) to be invoked for any element e. Implementations are free to implement optimizations whereby the equals invocation is avoided, for example, by first comparing the hash codes of the two elements. (The Object.hashCode() specification guarantees that two objects with unequal hash codes cannot be equal.) More generally, implementations of the various Collections Framework interfaces are free to take advantage of the specified behavior of underlying Object methods wherever the implementor deems it appropriate.\r\n"
+				+ "\r\n" + "Some collection operations which perform recursive traversal of the collection may fail with an exception for self-referential instances where the collection directly or indirectly contains itself. This includes the clone(), equals(), hashCode() and toString() methods. Implementations may optionally handle the self-referential scenario, however most current implementations do not do so.";
+		int i;
+		String s[]=str.split(" ");
+		
+		HashMap<String, Integer> freq= new HashMap<>();
+		
+		for(i=0;i<s.length;i++) {
+			if(freq.get(s[i])!=null) {
+				int count=freq.get(s[i]);
+				freq.put(s[i], count+1);
+			}
+			else
+			{
+				freq.put(s[i], 1);
+			}
+		}
+		System.out.println(freq);
+		
+				
+	}
+
+}

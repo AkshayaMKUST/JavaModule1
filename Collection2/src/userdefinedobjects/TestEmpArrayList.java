@@ -1,0 +1,33 @@
+package userdefinedobjects;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class TestEmpArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> emplist= new ArrayList<>();
+		Employee Emp1=new Employee("John Doe","Male",24,101,"Research",50000);
+		
+		Employee Emp2=new Employee("James Doe","Male",24,102,"Sales",70000);
+		
+		Employee Emp3=new Employee("Jenny Doe","Female",23,105,"Accounting",90000);
+		
+		Employee Emp4=new Employee("Jim Doe","Male",26,106,"Research",50000);
+		
+		Employee Emp5=new Employee("John Doe","Male",24,101,"Research",50000);
+		
+		emplist.add(Emp1);
+		emplist.add(Emp2);
+		emplist.add(Emp3);
+		emplist.add(Emp4);
+		emplist.add(Emp5);
+		
+		System.out.println(emplist);
+		
+		
+	}
+
+}

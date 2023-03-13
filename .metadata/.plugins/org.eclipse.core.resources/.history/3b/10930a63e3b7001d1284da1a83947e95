@@ -1,0 +1,5 @@
+package oopsday3.math;
+
+public interface MathIface {
+
+}

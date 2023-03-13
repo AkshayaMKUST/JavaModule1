@@ -1,0 +1,18 @@
+package Strings;
+
+public class STRING2 {
+
+	public static void main(String[] args) {
+		
+		int i= 1234567;
+		String str= i+"";
+		StringBuilder sb= new StringBuilder(str);
+		StringBuilder reverse=sb.reverse();
+		System.out.println(reverse);
+		sb.toString();
+		boolean result= sb.equals(reverse);
+		System.out.println(result);
+
+	}
+
+}

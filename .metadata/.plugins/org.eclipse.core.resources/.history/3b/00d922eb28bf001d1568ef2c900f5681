@@ -1,0 +1,24 @@
+package Streams;
+
+import java.util.ArrayList;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<String> list= new Arraylist<>();
+		list.add("Sun");
+		list.add("Moon");
+		list.add("Earth");
+		list.add("Venus");
+		list.add("Mars");
+		list.add("Jupiter");
+		list.add("Saturn");
+		
+		long count =	list.stream().filter((str)->str.length()>3).count();
+		System.out.println(count);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package ExceptionHandlingDay6;
+
+public class ExceptionDemo3 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Program task begins");
+		try {
+			System.out.println("From try..");
+			
+		}catch(Exception e) {
+			System.out.println("From Catch..");
+		}
+		System.out.println("Program Completed Task");
+	}
+
+}

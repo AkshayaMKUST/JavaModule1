@@ -1,0 +1,17 @@
+package Optionals;
+
+import java.util.Optional;
+
+public class TestOptionals {
+	public static void main(String[] args) {
+		
+		String str=null;
+		Optional<String> optional= Optional.of(str);
+		
+		System.out.println(optional.get()); //gives null pointer exception when we use Optional.of
+		
+		Optional<String> optional2=Optional.ofNullable(str);
+		System.out.println(optional.get());
+		
+	}
+}

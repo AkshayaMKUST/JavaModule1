@@ -1,0 +1,59 @@
+package oopsday3.math;
+
+public class Math1 implements MathIface {
+
+	private int num;
+	
+	
+	public Math1() {
+		
+	}
+
+	public Math1(int num) {
+		super();
+		this.num = num;
+	}
+	
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	@Override
+	public int factorial(int n) {
+		
+//		int fact=1;
+//		for(int )
+		return 0;
+	}
+
+	@Override
+	public int PrimeOrNOt(int n) {
+		
+		return 0;
+	}
+
+	@Override
+	public int OddOrEven(int n) {
+		
+		return 0;
+	}
+
+	@Override
+	public int Sum(int n) {
+		
+		return 0;
+	}
+
+	@Override
+	public int Multiply(int n) {
+		
+		return 0;
+	}
+	
+	
+
+}

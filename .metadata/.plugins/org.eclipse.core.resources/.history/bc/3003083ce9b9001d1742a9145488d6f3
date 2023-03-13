@@ -1,0 +1,29 @@
+package Statemachine;
+
+import java.util.Scanner;
+
+public class StateMachine implements StateIface {
+
+	private int hun=100;
+	private int fif=100;
+	private int twen=100;
+	private int ten=100;
+	private int five=100;
+	private static int statemachinebal;
+	
+	statemachinebal=(100*100)+(50*100)*(20*100)*(10*100)*(5*100);
+	@Override
+	public void withdraw(int amount, int deno) {
+		
+		
+		
+	}
+
+	@Override
+	public void balance(int denocnt) {
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package listdemo;
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList flowers = new ArrayList();
+		flowers.add("Tulips");
+		flowers.add("Lotus");
+		flowers.add("Jasmine");
+		System.out.println(flowers);
+		System.out.println(flowers.size());
+	}
+
+}

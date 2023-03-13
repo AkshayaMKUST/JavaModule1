@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;interthread1.ProductInteger.java&apos; to &apos;ProduceInteger.java&apos;&#x0D;&#x0A;- Original project: &apos;Multithreading&apos;&#x0D;&#x0A;- Original element: &apos;interthread1.ProductInteger.java&apos;&#x0D;&#x0A;- Renamed element: &apos;interthread1.ProduceInteger.java&apos;" description="Rename compilation unit &apos;ProductInteger.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;interthread1{ProductInteger.java" name="ProduceInteger.java" references="false" stamp="1678255789358" version="1.0"/>
+</session>

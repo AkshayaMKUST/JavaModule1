@@ -1,0 +1,21 @@
+package Testlambdas;
+
+interface Shape{
+	 
+	double area();
+}
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		
+		Shape s =() -> {
+			return 0.0;
+		};
+		
+		double result= s.area();
+		System.out.println(result);
+
+	}
+
+}

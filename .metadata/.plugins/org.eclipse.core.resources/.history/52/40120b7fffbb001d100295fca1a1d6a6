@@ -1,0 +1,13 @@
+package serialization.test;
+
+import java.io.FileInputStream;
+import java.io.ObjectStreamClass;
+
+public class TestEmployee2 {
+
+	public static void main(String[] args) throws IOException{
+		
+		FileInputStream fis=new FileInputStream("D:\\ustcore\\ioserialization\\emp.dat");
+	}
+
+}

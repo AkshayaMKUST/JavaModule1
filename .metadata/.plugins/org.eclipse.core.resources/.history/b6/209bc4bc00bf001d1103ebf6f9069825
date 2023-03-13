@@ -1,0 +1,5 @@
+package Testlambdas;
+
+public interface TestInterface {
+
+}

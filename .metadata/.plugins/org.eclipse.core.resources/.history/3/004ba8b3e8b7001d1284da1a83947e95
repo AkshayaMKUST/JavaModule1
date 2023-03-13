@@ -1,0 +1,22 @@
+package oopsday3.math;
+
+public class Math2 {
+
+	public static void main(String[] args) {
+	
+		MathIface m= new Math1();
+		
+			System.out.println("Factorial Of the number = "+(m.factorial(5)));
+			
+			
+			int p=m.PrimeOrNOt(5);
+			if(p==0) {
+				System.out.println("The given number is not prime");
+			}
+			else
+				System.out.println("The given number is prime");
+			
+
+	}
+
+}

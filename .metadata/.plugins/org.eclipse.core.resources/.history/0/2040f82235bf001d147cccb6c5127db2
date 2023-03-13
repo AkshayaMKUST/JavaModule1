@@ -1,0 +1,7 @@
+package MethodRef;
+
+public class Snippet {
+	List<String> outlist = list.stream().map((str)->str.toUpperCase()).collect(Collectors.toList());
+			System.out.println(outlist);
+}
+

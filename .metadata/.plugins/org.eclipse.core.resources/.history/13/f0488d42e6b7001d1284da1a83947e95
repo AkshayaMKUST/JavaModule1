@@ -1,0 +1,15 @@
+package oopsday3.math;
+
+public class Math2 {
+
+	public static void main(String[] args) {
+		
+		MathIface m= new Math1();
+		
+		
+			
+		
+
+	}
+
+}
