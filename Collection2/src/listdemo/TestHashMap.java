@@ -25,7 +25,7 @@ public class TestHashMap {
 		//HashMap has 3 views
 		//1. Key view
 		
-		Set<String> keys = countrycurr.keySet();
+		Collection<String> keys = countrycurr.keySet();
 		for(String key : keys) {
 			
 			System.out.println(key);

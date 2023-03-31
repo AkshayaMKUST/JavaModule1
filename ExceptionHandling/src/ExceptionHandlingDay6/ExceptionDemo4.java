@@ -11,11 +11,7 @@ public class ExceptionDemo4 {
 	public static void main(String[] args) throws SQLException {
 		
 		method();
-		/*
-		 * try { method(); }catch(SQLException e) {
-		 * 
-		 * e.printStackTrace(); }
-		 */
+
 	}
 
 }

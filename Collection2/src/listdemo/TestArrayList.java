@@ -7,11 +7,12 @@ public class TestArrayList {
 
 	public static void main(String[] args) {
 
-		ArrayList flowers = new ArrayList();
-		flowers.add(new Integer("1"));
-		flowers.add(new java.util.Date());
-		flowers.add(new java.util.Scanner(System.in));
-		flowers.add(new Double("10.10"));
+		ArrayList<String> flowers = new ArrayList<>();
+		/*
+		 * flowers.add(new Integer("1")); flowers.add(new java.util.Date());
+		 * flowers.add(new java.util.Scanner(System.in)); flowers.add(new
+		 * Double("10.10"));
+		 */
 
 		flowers.add("Tulips");
 		flowers.add("Lotus");

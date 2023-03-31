@@ -50,7 +50,6 @@ public class Test1 {
 		
 		list.stream().filter(p).map(f).forEach(c);
 		
-		
 	}
 
 }

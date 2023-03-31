@@ -6,4 +6,9 @@
     <typeInfo handle="=oopsday4/src&lt;oopsday4.polymorphism{Shape.java[Shape" modifiers="1025" timestamp="1677751245816"/>
     <typeInfo handle="=ioserialization/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1676526749181"/>
     <typeInfo handle="=Multithreading/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1676526749181"/>
+    <typeInfo handle="=solidprinciple/src&lt;lsp{Shape.java[Shape" modifiers="513" timestamp="1679038402283"/>
+    <typeInfo handle="=solidprinciple/src&lt;isp{BasicDetails.java[BasicDetails" modifiers="513" timestamp="1679043631938"/>
+    <typeInfo handle="=solidprinciple/src&lt;isp{PFDetails.java[PFDetails" modifiers="513" timestamp="1679043631930"/>
+    <typeInfo handle="=DesignPatterns/src&lt;structural.adapters.phoneifaces{MicroUSBPhone.java[MicroUSBPhone" modifiers="513" timestamp="1680240571409"/>
+    <typeInfo handle="=DesignPatterns/src&lt;structural.adapters.phoneifaces{LighteningPhone.java[LighteningPhone" modifiers="513" timestamp="1680240571402"/>
 </typeInfoHistroy>
